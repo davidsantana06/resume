@@ -6,11 +6,14 @@
     --light-color: #F8FAFC;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     background-color: var(--light-color);
     font-family: 'Lato', sans-serif;
-    max-width: 100svw;
-    overflow-x: hidden;
 }
 
 h1 {
