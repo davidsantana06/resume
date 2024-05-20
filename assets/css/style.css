@@ -9,6 +9,7 @@
 body {
     background-color: var(--light-color);
     font-family: 'Roboto', sans-serif;
+    max-width: 100svw;
     overflow-x: hidden;
 }
 
