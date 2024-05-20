@@ -25,6 +25,12 @@ h3 { font-size: 1rem; }
     top: 5px !important;
 }
 
+#beginning { animation-delay: .5s; }
+
+#middle { animation-delay: 1s; }
+
+#end { animation-delay: 1.5s; }
+
 #picture {
     width: 250px;
     height: 250px;

@@ -20,9 +20,9 @@
 		<div class="d-flex flex-column align-items-center me-md-5 mb-5 mb-md-0">
 			<img 
                 id="picture" 
-                class="mb-3"
+                class="mb-3 animate__animated animate__fadeInLeft"
             >
-            <div class="d-flex column-gap-4">
+            <div class="d-flex column-gap-4 animate__animated animate__fadeInLeft">
                 <a 
                     id="linkedin" 
                     class="link-dark" 
@@ -56,7 +56,10 @@
             </div>
 		</div>
 		<div>
-            <div class="mb-5">
+            <div
+                id="beginning"
+                class="mb-5 animate__animated animate__fadeInRight"
+            >
                 <h1
                     id="name"
                     class="text-highlight mb-1" 
@@ -68,7 +71,10 @@
                     x-text="data?.presentation"
                 ></p>
             </div>
-            <div class="mb-5">
+            <div
+                id="middle"
+                class="mb-5 animate__animated animate__fadeInRight"
+            >
                 <h2 class="text-highlight mb-3">🎓 Formação</h2>
                 <div
                     id="formation"
@@ -91,7 +97,10 @@
                     ></p>
                 </div>
             </div>
-            <div>
+            <div
+                id="end"
+                class="animate__animated animate__fadeInRight"
+            >
                 <h2 class="mb-3">💼 Experiências</h2>
                 <div
                     id="professional-experiences"
