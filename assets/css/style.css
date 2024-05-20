@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --highlight-color: #222B3C;
+    --subtle-color: #323B49;
+    --light-color: #F8FAFC;
+}
+
+body {
+    background-color: var(--light-color);
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2 { font-size: 1.15rem; }
+
+h3 { font-size: 1rem; }
+
+.text-highlight { color: var(--highlight-color);  }
+
+.text-subtle { color: var(--subtle-color); }
+
+.tooltip {
+    --bs-tooltip-bg: var(--highlight-color);
+    top: 5px !important;
+}
+
+#picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#presentation, #professional-experiences .responsibilities {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.date-period { font-size: 12px; }

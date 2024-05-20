@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Carregando...</title>
+    <script defer src="./assets/js/alpine.min.js"></script>
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./assets/css/animate.min.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+	<main 
+        class="container d-flex flex-column flex-md-row my-4 my-md-5" 
+        x-data="xData()"
+    >
+		<div class="d-flex flex-column align-items-center me-md-5 mb-5 mb-md-0">
+			<img 
+                id="picture" 
+                class="mb-3"
+            >
+            <div class="d-flex column-gap-4">
+                <a 
+                    id="linkedin" 
+                    class="link-dark" 
+                    target="_blank"
+                    data-bs-toggle="tooltip" 
+                    data-bs-placement="bottom" 
+                    data-bs-title="LinkedIn"
+                >
+                    <img src="./assets/img/linkedin.svg">
+                </a>
+                <a 
+                    id="github" 
+                    class="link-dark" 
+                    target="_blank"
+                    data-bs-toggle="tooltip" 
+                    data-bs-placement="bottom" 
+                    data-bs-title="GitHub"
+                >
+                    <img src="./assets/img/github.svg">
+                </a>
+                <a 
+                    id="email" 
+                    class="link-dark" 
+                    target="_blank"
+                    data-bs-toggle="tooltip" 
+                    data-bs-placement="bottom" 
+                    data-bs-title="E-mail"
+                >
+                    <img src="./assets/img/email.svg">
+                </a>
+            </div>
+		</div>
+		<div>
+            <div class="mb-5">
+                <h1
+                    id="name"
+                    class="text-highlight mb-1" 
+                    x-text="`Olá, me chamo ${data?.name} 👋`"
+                ></h1>
+                <p
+                    id="presentation"
+                    class="text-subtle"
+                    x-text="data?.presentation"
+                ></p>
+            </div>
+            <div class="mb-5">
+                <h2 class="text-highlight mb-3">🎓 Formação</h2>
+                <div
+                    id="formation"
+                    class="ms-4"
+                >
+                    <h3
+                        id="course"
+                        class="text-highlight fw-medium mb-1"
+                        x-text="data?.formation?.course"
+                    ></h3>
+                    <p
+                        id="learning-center"
+                        class="text-subtle mb-1"
+                        x-text="data?.formation?.learningCenter"
+                    >
+                    </p>
+                    <p
+                        class="date-period text-secondary"
+                        x-text="formatDatePeriod(`${data?.formation?.startDate}`, `${data?.formation?.endDate}`)"
+                    ></p>
+                </div>
+            </div>
+            <div>
+                <h2 class="mb-3">💼 Experiências</h2>
+                <div
+                    id="professional-experiences"
+                    class="d-flex flex-column row-gap-3"
+                >
+                    <template x-for="experience in data?.professionalExperiences">
+                        <div class="ms-4">
+                            <h3
+                                class="position text-highlight fw-medium mb-1"
+                                x-text="`${experience.position}`"
+                            ></h3>
+                            <p
+                                class="company text-subtle mb-2"
+                                x-text="experience.company"
+                            ></p>
+                            <p
+                                class="responsibilities text-subtle mb-2"
+                                x-text="experience.responsibilities"
+                            ></p>
+                            <p
+                                class="date-period text-secondary"
+                                x-text="formatDatePeriod(`${experience.startDate}`, `${experience.endDate}`)"
+                            ></p>
+                        </div>
+                    </template>
+                </div>
+            </div>
+		</div>
+	</main>
+	<script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
