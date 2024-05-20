@@ -75,19 +75,19 @@
                 id="middle"
                 class="mb-5 animate__animated animate__fadeInRight"
             >
-                <h2 class="text-highlight mb-3">🎓 Formação</h2>
+                <h2 class="text-highlight mb-3">Formação</h2>
                 <div
                     id="formation"
                     class="ms-4"
                 >
                     <h3
                         id="course"
-                        class="text-highlight fw-medium mb-1"
+                        class="text-highlight mb-1"
                         x-text="data?.formation?.course"
                     ></h3>
                     <p
                         id="learning-center"
-                        class="text-subtle mb-1"
+                        class="text-subtle fst-italic mb-1"
                         x-text="data?.formation?.learningCenter"
                     >
                     </p>
@@ -101,7 +101,7 @@
                 id="end"
                 class="animate__animated animate__fadeInRight"
             >
-                <h2 class="mb-3">💼 Experiências</h2>
+                <h2 class="mb-3">Experiências</h2>
                 <div
                     id="professional-experiences"
                     class="d-flex flex-column row-gap-3"
@@ -109,11 +109,11 @@
                     <template x-for="experience in data?.professionalExperiences">
                         <div class="ms-4">
                             <h3
-                                class="position text-highlight fw-medium mb-1"
+                                class="position text-highlight mb-1"
                                 x-text="`${experience.position}`"
                             ></h3>
                             <p
-                                class="company text-subtle mb-2"
+                                class="company text-subtle fst-italic mb-2"
                                 x-text="experience.company"
                             ></p>
                             <p
