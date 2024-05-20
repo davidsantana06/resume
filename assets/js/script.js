@@ -6,7 +6,6 @@ const xData = () => {
                 return res.json();
             }).then(data => {
                 this.data = data;
-                document.title = data.name;
                 document.getElementById('picture').setAttribute('src', data.picture);
                 document.getElementById('linkedin').setAttribute('href', data.linkedin);
                 document.getElementById('github').setAttribute('href', data.github);

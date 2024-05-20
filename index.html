@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Carregando...</title>
+	<title>David Santana</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <script defer src="./assets/js/alpine.min.js"></script>
 	<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
@@ -61,9 +61,9 @@
                 class="mb-5 animate__animated animate__fadeInRight"
             >
                 <h1
-                    id="name"
+                    id="greeting"
                     class="text-highlight mb-1" 
-                    x-text="`Olá, me chamo ${data?.name} 👋`"
+                    x-text="data?.greeting"
                 ></h1>
                 <p
                     id="presentation"
