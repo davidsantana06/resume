@@ -1,0 +1,44 @@
+{
+  "picture": "https://avatars.githubusercontent.com/u/110633725",
+  "linkedin": "https://www.linkedin.com/in/david-santana-067278288/",
+  "github": "https://github.com/davidsantana06",
+  "email": "davidsantana06@hotmail.com",
+  "greeting": "Oi, me chamo David Santana!",
+  "presentation": "Sou um grande entusiasta da tecnologia, focado em trazer proatividade, inovação e organização ao ambiente de trabalho. Minhas principais competências incluem a construção de aplicações web, APIs, bancos de dados, inteligência artificial, WebSockets, automação de tarefas e análise de dados.",
+  "formation": {
+    "course": "Bacharelado em Sistemas de Informação",
+    "learningCenter": "Instituto Federal de Educação, Ciência e Tecnologia da Bahia",
+    "startDate": "05/2021",
+    "endDate": "Atualmente"
+  },
+  "professionalExperiences": [
+    {
+      "position": "Desenvolvedor Fullstack",
+      "company": "SENAI CIMATEC",
+      "responsibilities": "",
+      "startDate": "06/2024",
+      "endDate": "Atualmente"
+    },
+    {
+      "position": "Engenheiro de Dados",
+      "company": "Compass UOL",
+      "responsibilities": "Trilha de capacitação voltada para a nuvem, abordando as linguagens Python e SQL, componentes de cloud computing, serviços analíticos e de processamento, além de técnicas e ferramentas para visualização e modelagem de dados.",
+      "startDate": "04/2024",
+      "endDate": "08/2024"
+    },
+    {
+      "position": "Desenvolvedor Web",
+      "company": "Secretaria Municipal de Saúde de Vitória da Conquista",
+      "responsibilities": "Estágio focado na construção de aplicações web, incluindo análise de requisitos, coleta de dados, documentação, prototipagem, desenvolvimento e implantação. Utilizei principalmente a linguagem de programação Python com o framework Flask, juntamente com JavaScript, HTML, CSS e Bootstrap.",
+      "startDate": "02/2023",
+      "endDate": "02/2024"
+    },
+    {
+      "position": "Monitor Acadêmico",
+      "company": "Instituto Federal de Educação, Ciência e Tecnologia da Bahia",
+      "responsibilities": "Atividade acadêmica em que instruí os alunos do curso de Sistemas de Informação sobre conceitos importantes da linguagem de programação Java, como exceptions, threads, generics, collections, I/O e JavaFX. Além disso, fui responsável por solucionar dúvidas específicas relacionadas à elaboração de atividades, trabalhos acadêmicos e provas.",
+      "startDate": "09/2022",
+      "endDate": "12/2022"
+    }
+  ]
+}
