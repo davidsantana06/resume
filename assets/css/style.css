@@ -1,61 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 :root {
-    --highlight-color: #222B3C;
-    --subtle-color: #323B49;
-    --light-color: #F8FAFC;
+  --highlight-color: #222b3c;
+  --subtle-color: #323b49;
+  --light-color: #f8fafc;
 }
 
-html, body {
-    overflow-x: hidden;
-    width: 100%;
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
-    background-color: var(--light-color);
-    font-family: 'Lato', sans-serif;
+  background-color: var(--light-color);
+  font-family: "Lato", sans-serif;
 }
 
 h1 {
-    font-size: 1.25rem;
-    font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
-h2 { 
-    font-size: 1.15rem; 
-    font-weight: 700;
+h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
 }
 
-h3 { font-size: 1rem; }
+h3 {
+  font-size: 1rem;
+}
 
-p { margin-bottom: 0; }
+p {
+  margin-bottom: 0;
+}
 
-.text-highlight { color: var(--highlight-color);  }
+.text-highlight {
+  color: var(--highlight-color);
+}
 
-.text-subtle { color: var(--subtle-color); }
+.text-subtle {
+  color: var(--subtle-color);
+}
 
 .tooltip {
-    --bs-tooltip-bg: var(--highlight-color);
-    top: 5px !important;
+  --bs-tooltip-bg: var(--highlight-color);
+  top: 5px !important;
 }
 
-#beginning { animation-delay: .5s; }
+#beginning {
+  animation-delay: 0.5s;
+}
 
-#middle { animation-delay: 1s; }
+#middle {
+  animation-delay: 1s;
+}
 
-#end { animation-delay: 1.5s; }
+#end {
+  animation-delay: 1.5s;
+}
 
 #picture {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 
-#presentation, #professional-experiences .responsibilities {
-    font-size: 14px;
-    text-align: justify;
+#presentation,
+#professional-experiences .responsibilities {
+  font-size: 14px;
+  text-align: justify;
 }
 
-#course, .position { font-weight: 600; }
+#course,
+.position {
+  font-weight: 600;
+}
 
-.date-period { font-size: 12px; }
+.date-period {
+  font-size: 12px;
+}
